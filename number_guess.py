@@ -22,24 +22,6 @@ else:
 while attemps != 0:
     print(f"You have {attemps} attemps remaining to guess the number.")
     guess = int(input("Make a guess: "))
-    # if guess > number:
-    #     print("Too high.")
-    #     attemps -= 1
-    #     if attemps == 0:
-    #         print("You've run out of guesses, you lose.")
-    #     else:
-    #         print("Guess again.")
-    # elif guess < number:
-    #     print("Too low.")
-    #     attemps -= 1
-    #     if attemps == 0:
-    #         print("You've run out of guesses, you lose.")
-    #     else:
-    #         print("Guess again.")
-    # elif guess == number:
-    #     print(f"You got it!. The answer was {number}.")
-    #     attemps = 0
-
     if guess != number:
         attemps -= 1
         if guess > number:
